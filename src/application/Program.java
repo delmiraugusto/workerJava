@@ -31,7 +31,7 @@ public class Program {
         // WorkerLevel.valueOf(workerLevel) cria uma instancia do tipo enumerado
         // WorkerLevel no valor equivalente ao que foi digitado
 
-        System.out.print("How many contracts to this worker?");
+        System.out.print("How many contracts to this worker? ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {

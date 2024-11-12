@@ -1,8 +1,10 @@
 package entities;
 
-import enums.WorkerLevel;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+
+import enums.WorkerLevel;
 
 public class Worker {
 	private String name;
@@ -10,7 +12,7 @@ public class Worker {
 	private Double baseSalary;
 
 	private Department department;
-	private List<HourContract> contracts;
+	private List<HourContract> contracts = new ArrayList<>();
 
 	public Worker() {
 	}
